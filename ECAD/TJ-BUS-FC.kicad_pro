@@ -367,7 +367,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PC104 Cubesat Template.kicad_pro",
+    "filename": "TJ-BUS-FC.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -448,6 +448,10 @@
     [
       "983c426c-24e0-4c65-ab69-1f1824adc5c6",
       ""
+    ],
+    [
+      "1b0ebad7-8a43-40a6-b997-58eed2589c95",
+      "Radio"
     ]
   ],
   "text_variables": {}
