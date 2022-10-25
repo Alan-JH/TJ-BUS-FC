@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "piridium-eps")(type "KiCad")(uri "${KIPRJMOD}/piridium-eps.kicad_sym")(options "")(descr ""))
+)

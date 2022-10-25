@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "piridium-bus")(type "KiCad")(uri "${KIPRJMOD}/piridium-bus.kicad_sym")(options "")(descr ""))
+)

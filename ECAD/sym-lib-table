@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name "9602N")(type "KiCad")(uri "${KIPRJMOD}/9602N.kicad_sym")(options "")(descr ""))
-  (lib (name "Symbols")(type "KiCad")(uri "${KIPRJMOD}/Symbols.kicad_sym")(options "")(descr ""))
-  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/teensy.kicad_sym")(options "")(descr ""))
-)

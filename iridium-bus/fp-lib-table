@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "piridium-bus")(type "KiCad")(uri "${KIPRJMOD}/piridium-bus.pretty")(options "")(descr ""))
-)
