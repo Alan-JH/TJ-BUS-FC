@@ -3466,7 +3466,7 @@
     (property "Value" "0.1uF" (id 1) (at 46.99 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 48.5648 114.3 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 48.5648 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 49.53 110.49 0)
@@ -3652,7 +3652,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 261.62 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 225cc74f-319d-4c48-80fd-7620a86ed3c6)
-    (property "Reference" "H4" (id 0) (at 264.16 50.7999 0)
+    (property "Reference" "MH4" (id 0) (at 264.16 50.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (id 1) (at 264.16 53.3399 0)
@@ -3850,7 +3850,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 234.95 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 38c8b968-ed8b-48c3-8f10-00c9302564af)
-    (property "Reference" "H1" (id 0) (at 237.49 50.7999 0)
+    (property "Reference" "MH1" (id 0) (at 237.49 50.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (id 1) (at 237.49 53.3399 0)
@@ -4017,7 +4017,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 243.84 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 521323a6-d8a6-4440-944c-03c95480786b)
-    (property "Reference" "H2" (id 0) (at 246.38 50.7999 0)
+    (property "Reference" "MH2" (id 0) (at 246.38 50.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (id 1) (at 246.38 53.3399 0)
@@ -4073,7 +4073,7 @@
     (property "Value" "0.1uF" (id 1) (at 74.93 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 73.3552 114.3 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 73.3552 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 72.39 110.49 0)
@@ -4462,7 +4462,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 252.73 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9958619c-b644-4318-a651-1582659c7391)
-    (property "Reference" "H3" (id 0) (at 255.27 50.7999 0)
+    (property "Reference" "MH3" (id 0) (at 255.27 50.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (id 1) (at 255.27 53.3399 0)
@@ -5268,10 +5268,10 @@
       (reference "C5") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/0a6fd6c8-d7db-4d3e-b044-c1ca2429107f"
-      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/55c0baef-5360-4ac7-886a-d6cdbe2f49a6"
-      (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/801272d8-944f-4d2f-b54d-b52fcaccc798"
       (reference "C8") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -5297,18 +5297,6 @@
     (path "/bb001bca-7329-401f-ba96-7b6ec5f53974"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
-    (path "/38c8b968-ed8b-48c3-8f10-00c9302564af"
-      (reference "H1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
-    )
-    (path "/521323a6-d8a6-4440-944c-03c95480786b"
-      (reference "H2") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
-    )
-    (path "/9958619c-b644-4318-a651-1582659c7391"
-      (reference "H3") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
-    )
-    (path "/225cc74f-319d-4c48-80fd-7620a86ed3c6"
-      (reference "H4") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
-    )
     (path "/321ea199-1ef7-40a0-ade9-c079749b846a"
       (reference "J1") (unit 1) (value "EPS") (footprint "Connector_Molex:Molex_Nano-Fit_105313-xx04_1x04_P2.50mm_Horizontal")
     )
@@ -5329,6 +5317,18 @@
     )
     (path "/c1dd24bc-87b2-4f5d-8cdc-51a476e87f3a"
       (reference "L2") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Abracon_ASPI-0630LR")
+    )
+    (path "/38c8b968-ed8b-48c3-8f10-00c9302564af"
+      (reference "MH1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+    )
+    (path "/521323a6-d8a6-4440-944c-03c95480786b"
+      (reference "MH2") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+    )
+    (path "/9958619c-b644-4318-a651-1582659c7391"
+      (reference "MH3") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+    )
+    (path "/225cc74f-319d-4c48-80fd-7620a86ed3c6"
+      (reference "MH4") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
     (path "/2f03028b-6b92-4188-b01e-2bc64a9982ab"
       (reference "Q1") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
