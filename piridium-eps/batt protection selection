@@ -1,0 +1,12 @@
+R5460N 212AA 4.290 4.050 4.290 4.050 3.000 3.200 3.000 3.200 0.200 -0.200 1 128
+R5460N 212AE 4.290 4.050 4.290 4.050 3.000 3.200 3.000 3.200 0.200 -0.200 1 128
+++R5460N 212AF 4.290 4.050 4.290 4.050 3.000 3.200 3.000 3.200 0.200 -0.200 1 128
+R5460N 214AE 4.250 4.050 4.250 4.050 2.800 3.000 2.800 3.000 0.200 -0.200 1 128
++R5460N 214AF 4.250 4.050 4.250 4.050 2.800 3.000 2.800 3.000 0.200 -0.200 1 128
++R5460N 218AF 4.250 4.050 4.250 4.050 2.800 3.000 2.800 3.000 0.200 -0.100 1 128
++R5460N 233AF 4.100 3.950 4.100 3.950 2.800 3.000 2.800 3.000 0.200 -0.200 1 128
+
+A：Over-Charge = Auto-Release, Over-Discharge = Auto Release
+D：Over-Charge = Auto-Release, Over-Discharge = Auto Release, VDET1U/L＜4.0V
+E：Over-Charge = Auto-Release, Over-Discharge = Auto Release (No Hysteresis Cancellation)
+F：Over-Charge = Auto-Release, Over-Discharge = Latch (Hysteresis)
