@@ -484,6 +484,14 @@
     [
       "3342f273-e16b-48f3-a0a4-b2c21cbb9b71",
       "Solar B"
+    ],
+    [
+      "8f299735-b38c-430d-9b25-11c1bd8f37ae",
+      "5V LCL"
+    ],
+    [
+      "d68d87f7-e88a-4f71-9178-91cab5440d6b",
+      "5VP LCL"
     ]
   ],
   "text_variables": {}
