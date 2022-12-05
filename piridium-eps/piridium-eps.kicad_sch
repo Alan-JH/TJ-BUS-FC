@@ -1453,7 +1453,7 @@
     (property "Value" "18650" (id 1) (at 157.48 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650" (id 2) (at 166.37 87.376 90)
+    (property "Footprint" "piridium-eps:Keystone_1042_1x18650_Shortpad2" (id 2) (at 166.37 87.376 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.37 87.376 90)
@@ -1705,7 +1705,7 @@
     (property "Value" "18650" (id 1) (at 144.78 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650" (id 2) (at 153.67 97.536 90)
+    (property "Footprint" "piridium-eps:Keystone_1042_1x18650_Shortpad" (id 2) (at 153.67 97.536 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 153.67 97.536 90)
@@ -1791,10 +1791,10 @@
       (reference "BT1") (unit 1) (value "18650") (footprint "Battery:BatteryHolder_Keystone_1042_1x18650")
     )
     (path "/ed242fec-6e8d-4cf5-af4a-93636bebd7f7"
-      (reference "BT2") (unit 1) (value "18650") (footprint "Battery:BatteryHolder_Keystone_1042_1x18650")
+      (reference "BT2") (unit 1) (value "18650") (footprint "piridium-eps:Keystone_1042_1x18650_Shortpad")
     )
     (path "/5d447a6e-452c-4990-aba0-6f8a6ee1fb83"
-      (reference "BT3") (unit 1) (value "18650") (footprint "Battery:BatteryHolder_Keystone_1042_1x18650")
+      (reference "BT3") (unit 1) (value "18650") (footprint "piridium-eps:Keystone_1042_1x18650_Shortpad2")
     )
     (path "/503ba92c-dac5-4f0f-8b82-75bf2e24956e"
       (reference "BT4") (unit 1) (value "18650") (footprint "Battery:BatteryHolder_Keystone_1042_1x18650")
