@@ -4848,6 +4848,24 @@
     (pin "1" (uuid e25fc7f2-4add-45ec-bc33-7c3c007bf82c))
   )
 
+  (symbol (lib_id "power:+BATT") (at 208.28 20.32 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 0572d3b7-c872-41b1-b65f-ce6e9b18c5ab)
+    (property "Reference" "#PWR?" (id 0) (at 208.28 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (id 1) (at 209.55 19.05 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 208.28 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 208.28 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0123af3a-dd6f-4f2d-b031-624525bfaf54))
+  )
+
   (symbol (lib_id "power:+3.3V") (at 173.99 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 065e1f10-1d86-4edd-bfa5-922e0a2a0519)
@@ -5581,22 +5599,6 @@
     )
     (pin "1" (uuid 28c312c5-c50e-4936-94a8-e175749aeb50))
     (pin "2" (uuid 9b46c15a-9717-4746-af71-f4ee3bd2d412))
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 208.28 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 4304edc3-4a15-4a04-95b2-40c12ad316a4)
-    (property "Reference" "#PWR031" (id 0) (at 208.28 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 208.28 16.51 0))
-    (property "Footprint" "" (id 2) (at 208.28 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 208.28 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a2c05994-9301-4f29-b84f-679db8e09a04))
   )
 
   (symbol (lib_id "Transistor_FET:IRF7404") (at 102.87 24.13 270) (mirror x) (unit 1)
@@ -7619,9 +7621,6 @@
     (path "/c6750ef6-75fe-4984-8ef4-f9417761cc9f"
       (reference "#PWR030") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4304edc3-4a15-4a04-95b2-40c12ad316a4"
-      (reference "#PWR031") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/00b4f894-fd03-4264-a14f-fc8743af3471"
       (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
@@ -7750,6 +7749,9 @@
     )
     (path "/d68d87f7-e88a-4f71-9178-91cab5440d6b/1e41194b-3c9f-496e-963d-2ee115540556"
       (reference "#PWR074") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0572d3b7-c872-41b1-b65f-ce6e9b18c5ab"
+      (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
     )
     (path "/dee1721c-7498-4aa5-ba4d-8809f87db910"
       (reference "A1") (unit 1) (value "Raspberry_Pi_Zero") (footprint "piridium-bus:Raspberry Pi Zero")
