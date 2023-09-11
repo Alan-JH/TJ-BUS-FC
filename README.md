@@ -9,13 +9,15 @@ Flight Computer: Raspberry Pi Zero/Zero W
 
 Radio: Iridium 9602N Short Burst Data
 
+Clock: DS3232M RTC with CR2032 Battery Backup
+
 Battery: Six 18650 Li-Ion cells (builder's discretion, recommend protected 3-4Ah) in a 3P2S configuration
 
 Battery protection: ~7.7A overcurrent protection (charge & discharge), 4.29V/cell overcharge protection with hysteresis down to 4.05V/cell, 3V/cell overdischarge protection with hysteresis up to 3.2V/cell
 
 Solar input: 4 input connectors feeding two regulators with 25V Max (limited by the voltage divider for telemetry) with charge cutoff at 8.27V, MPPT settable using a trim pot
 
-Output regulation: 2 isolated 5V rails up to 3A output, one for the radio, the other for the Raspberry Pi, each with latching current limiters and a watchdog timer
+Output regulation: 2 separated 5V rails up to 3A output, one for the radio, the other for the Raspberry Pi, each with latching current limiters and a watchdog timer
 
 Payload connection: 1x SPI bus with one dedicated chip enable pin, 1x I2C bus, 1x unused configurable GPIO pin, switchable battery power (no overcurrent protection); see schematic for pinout
 
